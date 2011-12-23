@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A765E7E014872DE900E77B39 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A765E7DF14872DE900E77B39 /* Cocoa.framework */; };
+		A765E7EA14872DE900E77B39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A765E7E814872DE900E77B39 /* InfoPlist.strings */; };
+		A765E7EC14872DE900E77B39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A765E7EB14872DE900E77B39 /* main.m */; };
+		A765E7F014872DE900E77B39 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A765E7EE14872DE900E77B39 /* Credits.rtf */; };
+		A765E7F314872DE900E77B39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A765E7F214872DE900E77B39 /* AppDelegate.m */; };
+		A765E7F614872DE900E77B39 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A765E7F414872DE900E77B39 /* MainMenu.xib */; };
+		A765E7FE14872DFB00E77B39 /* NSImage+BCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A765E7FD14872DFB00E77B39 /* NSImage+BCExtension.m */; };
+		A765E80114872E2B00E77B39 /* BCView.m in Sources */ = {isa = PBXBuildFile; fileRef = A765E80014872E2B00E77B39 /* BCView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A765E7DB14872DE900E77B39 /* noiseBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noiseBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A765E7DF14872DE900E77B39 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A765E7E214872DE900E77B39 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A765E7E314872DE900E77B39 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A765E7E414872DE900E77B39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A765E7E714872DE900E77B39 /* noiseBackground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "noiseBackground-Info.plist"; sourceTree = "<group>"; };
+		A765E7E914872DE900E77B39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A765E7EB14872DE900E77B39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A765E7ED14872DE900E77B39 /* noiseBackground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "noiseBackground-Prefix.pch"; sourceTree = "<group>"; };
+		A765E7EF14872DE900E77B39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A765E7F114872DE900E77B39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A765E7F214872DE900E77B39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A765E7F514872DE900E77B39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A765E7FC14872DFB00E77B39 /* NSImage+BCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+BCExtension.h"; sourceTree = "<group>"; };
+		A765E7FD14872DFB00E77B39 /* NSImage+BCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+BCExtension.m"; sourceTree = "<group>"; };
+		A765E7FF14872E2B00E77B39 /* BCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCView.h; sourceTree = "<group>"; };
+		A765E80014872E2B00E77B39 /* BCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A765E7D814872DE900E77B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A765E7E014872DE900E77B39 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A765E7D014872DE900E77B39 = {
+			isa = PBXGroup;
+			children = (
+				A765E7E514872DE900E77B39 /* noiseBackground */,
+				A765E7DE14872DE900E77B39 /* Frameworks */,
+				A765E7DC14872DE900E77B39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A765E7DC14872DE900E77B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A765E7DB14872DE900E77B39 /* noiseBackground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A765E7DE14872DE900E77B39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A765E7DF14872DE900E77B39 /* Cocoa.framework */,
+				A765E7E114872DE900E77B39 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A765E7E114872DE900E77B39 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A765E7E214872DE900E77B39 /* AppKit.framework */,
+				A765E7E314872DE900E77B39 /* CoreData.framework */,
+				A765E7E414872DE900E77B39 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A765E7E514872DE900E77B39 /* noiseBackground */ = {
+			isa = PBXGroup;
+			children = (
+				A765E7FC14872DFB00E77B39 /* NSImage+BCExtension.h */,
+				A765E7FD14872DFB00E77B39 /* NSImage+BCExtension.m */,
+				A765E7FF14872E2B00E77B39 /* BCView.h */,
+				A765E80014872E2B00E77B39 /* BCView.m */,
+				A765E7F114872DE900E77B39 /* AppDelegate.h */,
+				A765E7F214872DE900E77B39 /* AppDelegate.m */,
+				A765E7F414872DE900E77B39 /* MainMenu.xib */,
+				A765E7E614872DE900E77B39 /* Supporting Files */,
+			);
+			path = noiseBackground;
+			sourceTree = "<group>";
+		};
+		A765E7E614872DE900E77B39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A765E7E714872DE900E77B39 /* noiseBackground-Info.plist */,
+				A765E7E814872DE900E77B39 /* InfoPlist.strings */,
+				A765E7EB14872DE900E77B39 /* main.m */,
+				A765E7ED14872DE900E77B39 /* noiseBackground-Prefix.pch */,
+				A765E7EE14872DE900E77B39 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A765E7DA14872DE900E77B39 /* noiseBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A765E7F914872DE900E77B39 /* Build configuration list for PBXNativeTarget "noiseBackground" */;
+			buildPhases = (
+				A765E7D714872DE900E77B39 /* Sources */,
+				A765E7D814872DE900E77B39 /* Frameworks */,
+				A765E7D914872DE900E77B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = noiseBackground;
+			productName = noiseBackground;
+			productReference = A765E7DB14872DE900E77B39 /* noiseBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A765E7D214872DE900E77B39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A765E7D514872DE900E77B39 /* Build configuration list for PBXProject "noiseBackground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A765E7D014872DE900E77B39;
+			productRefGroup = A765E7DC14872DE900E77B39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A765E7DA14872DE900E77B39 /* noiseBackground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A765E7D914872DE900E77B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A765E7EA14872DE900E77B39 /* InfoPlist.strings in Resources */,
+				A765E7F014872DE900E77B39 /* Credits.rtf in Resources */,
+				A765E7F614872DE900E77B39 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A765E7D714872DE900E77B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A765E7EC14872DE900E77B39 /* main.m in Sources */,
+				A765E7F314872DE900E77B39 /* AppDelegate.m in Sources */,
+				A765E7FE14872DFB00E77B39 /* NSImage+BCExtension.m in Sources */,
+				A765E80114872E2B00E77B39 /* BCView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A765E7E814872DE900E77B39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A765E7E914872DE900E77B39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A765E7EE14872DE900E77B39 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A765E7EF14872DE900E77B39 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A765E7F414872DE900E77B39 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A765E7F514872DE900E77B39 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A765E7F714872DE900E77B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A765E7F814872DE900E77B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A765E7FA14872DE900E77B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "noiseBackground/noiseBackground-Prefix.pch";
+				INFOPLIST_FILE = "noiseBackground/noiseBackground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A765E7FB14872DE900E77B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "noiseBackground/noiseBackground-Prefix.pch";
+				INFOPLIST_FILE = "noiseBackground/noiseBackground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A765E7D514872DE900E77B39 /* Build configuration list for PBXProject "noiseBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A765E7F714872DE900E77B39 /* Debug */,
+				A765E7F814872DE900E77B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A765E7F914872DE900E77B39 /* Build configuration list for PBXNativeTarget "noiseBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A765E7FA14872DE900E77B39 /* Debug */,
+				A765E7FB14872DE900E77B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A765E7D214872DE900E77B39 /* Project object */;
+}
